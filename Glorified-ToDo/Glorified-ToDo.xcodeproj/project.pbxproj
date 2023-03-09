@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4EB8BB829BA448B00B63270 /* Glorified_ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB8BB729BA448B00B63270 /* Glorified_ToDoApp.swift */; };
+		F4EB8BBA29BA448B00B63270 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB8BB929BA448B00B63270 /* ContentView.swift */; };
+		F4EB8BBC29BA448C00B63270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EB8BBB29BA448C00B63270 /* Assets.xcassets */; };
+		F4EB8BBF29BA448C00B63270 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EB8BBE29BA448C00B63270 /* Preview Assets.xcassets */; };
+		F4EB8BCB29BA45B800B63270 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB8BCA29BA45B800B63270 /* Category.swift */; };
+		F4EB8BCD29BA465B00B63270 /* ExpirationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB8BCC29BA465B00B63270 /* ExpirationInfo.swift */; };
+		F4EB8BCF29BA47FD00B63270 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB8BCE29BA47FD00B63270 /* Task.swift */; };
+		F4EB8BD129BA485D00B63270 /* ReminderAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB8BD029BA485D00B63270 /* ReminderAt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4EB8BB429BA448B00B63270 /* Glorified-ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glorified-ToDo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EB8BB729BA448B00B63270 /* Glorified_ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorified_ToDoApp.swift; sourceTree = "<group>"; };
+		F4EB8BB929BA448B00B63270 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4EB8BBB29BA448C00B63270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4EB8BBE29BA448C00B63270 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4EB8BCA29BA45B800B63270 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F4EB8BCC29BA465B00B63270 /* ExpirationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpirationInfo.swift; sourceTree = "<group>"; };
+		F4EB8BCE29BA47FD00B63270 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		F4EB8BD029BA485D00B63270 /* ReminderAt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderAt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4EB8BB129BA448B00B63270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4EB8BAB29BA448B00B63270 = {
+			isa = PBXGroup;
+			children = (
+				F4EB8BB629BA448B00B63270 /* Glorified-ToDo */,
+				F4EB8BB529BA448B00B63270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4EB8BB529BA448B00B63270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4EB8BB429BA448B00B63270 /* Glorified-ToDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4EB8BB629BA448B00B63270 /* Glorified-ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				F4EB8BC529BA44C600B63270 /* model */,
+				F4EB8BB729BA448B00B63270 /* Glorified_ToDoApp.swift */,
+				F4EB8BB929BA448B00B63270 /* ContentView.swift */,
+				F4EB8BBB29BA448C00B63270 /* Assets.xcassets */,
+				F4EB8BBD29BA448C00B63270 /* Preview Content */,
+			);
+			path = "Glorified-ToDo";
+			sourceTree = "<group>";
+		};
+		F4EB8BBD29BA448C00B63270 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4EB8BBE29BA448C00B63270 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4EB8BC529BA44C600B63270 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F4EB8BCA29BA45B800B63270 /* Category.swift */,
+				F4EB8BCC29BA465B00B63270 /* ExpirationInfo.swift */,
+				F4EB8BCE29BA47FD00B63270 /* Task.swift */,
+				F4EB8BD029BA485D00B63270 /* ReminderAt.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4EB8BB329BA448B00B63270 /* Glorified-ToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EB8BC229BA448C00B63270 /* Build configuration list for PBXNativeTarget "Glorified-ToDo" */;
+			buildPhases = (
+				F4EB8BB029BA448B00B63270 /* Sources */,
+				F4EB8BB129BA448B00B63270 /* Frameworks */,
+				F4EB8BB229BA448B00B63270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glorified-ToDo";
+			productName = "Glorified-ToDo";
+			productReference = F4EB8BB429BA448B00B63270 /* Glorified-ToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4EB8BAC29BA448B00B63270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F4EB8BB329BA448B00B63270 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F4EB8BAF29BA448B00B63270 /* Build configuration list for PBXProject "Glorified-ToDo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4EB8BAB29BA448B00B63270;
+			productRefGroup = F4EB8BB529BA448B00B63270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4EB8BB329BA448B00B63270 /* Glorified-ToDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4EB8BB229BA448B00B63270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EB8BBF29BA448C00B63270 /* Preview Assets.xcassets in Resources */,
+				F4EB8BBC29BA448C00B63270 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4EB8BB029BA448B00B63270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EB8BD129BA485D00B63270 /* ReminderAt.swift in Sources */,
+				F4EB8BBA29BA448B00B63270 /* ContentView.swift in Sources */,
+				F4EB8BCD29BA465B00B63270 /* ExpirationInfo.swift in Sources */,
+				F4EB8BCF29BA47FD00B63270 /* Task.swift in Sources */,
+				F4EB8BB829BA448B00B63270 /* Glorified_ToDoApp.swift in Sources */,
+				F4EB8BCB29BA45B800B63270 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4EB8BC029BA448C00B63270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4EB8BC129BA448C00B63270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4EB8BC329BA448C00B63270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glorified-ToDo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pv239.Glorified-ToDo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4EB8BC429BA448C00B63270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glorified-ToDo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pv239.Glorified-ToDo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4EB8BAF29BA448B00B63270 /* Build configuration list for PBXProject "Glorified-ToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EB8BC029BA448C00B63270 /* Debug */,
+				F4EB8BC129BA448C00B63270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4EB8BC229BA448C00B63270 /* Build configuration list for PBXNativeTarget "Glorified-ToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EB8BC329BA448C00B63270 /* Debug */,
+				F4EB8BC429BA448C00B63270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4EB8BAC29BA448B00B63270 /* Project object */;
+}

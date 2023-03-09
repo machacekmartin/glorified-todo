@@ -1,0 +1,37 @@
+@startuml
+entity Task {
+    *task_id : <<PK>> <<generated>>
+    --
+    *name: String
+    *category: category_id <<FK>>
+    *additional_info: String
+    *valid_until: expirationInfo_id <<FK>>
+}
+
+entity Category {
+    *category_id : <<PK>> <<generated>>
+    --
+    *name: String
+    *color: Color
+}
+
+entity ExpirationInfo {
+    *expirationInfo_id : <<PK>> <<generated>>
+    --
+    *deadline: Datetime
+    *reminder: Boolean
+    reminderAt: ReminderAt
+    is_done: Boolean
+}
+
+enum ReminderAt {
+    OneHour
+    TwoHours
+    Day
+    Week
+}
+
+
+Task }o..||Category
+Task ||..||ExpirationInfo
+@enduml
