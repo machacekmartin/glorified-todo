@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ExpirationInfo {
+struct ExpirationInfo: Identifiable {
     let id: UUID
     let deadline: Date
     let reminder: Bool

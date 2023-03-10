@@ -8,14 +8,23 @@
 import Foundation
 import SwiftUI
 
-class Category {
+struct Category: Identifiable {
     let id: UUID
     let name: String
-    let color: Color
+    let color: String
     
-    init(id: UUID = UUID(), name: String, color: Color) {
+    init(id: UUID = UUID(), name: String, color: String) {
         self.id = id
         self.name = name
         self.color = color
     }
+}
+
+extension Category {
+    static let sampleData: [Category] =
+    [
+        Category(name: "Work", color: "blue"),
+        Category(name: "Home", color: "green"),
+        Category(name: "miscallaneous", color: "red")
+    ]
 }
