@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40116FA29BB489500211565 /* ToDoDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F40116F829BB489500211565 /* ToDoDatabase.xcdatamodeld */; };
+		F4BAFDB629BB4ECB00EE1EDE /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAFDB529BB4ECB00EE1EDE /* CategoryCardView.swift */; };
+		F4BAFDB829BB535600EE1EDE /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAFDB729BB535600EE1EDE /* HomePageView.swift */; };
 		F4EB8BB829BA448B00B63270 /* Glorified_ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB8BB729BA448B00B63270 /* Glorified_ToDoApp.swift */; };
 		F4EB8BBA29BA448B00B63270 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB8BB929BA448B00B63270 /* ContentView.swift */; };
 		F4EB8BBC29BA448C00B63270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EB8BBB29BA448C00B63270 /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F40116F929BB489500211565 /* ToDoDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoDatabase.xcdatamodel; sourceTree = "<group>"; };
+		F4BAFDB529BB4ECB00EE1EDE /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		F4BAFDB729BB535600EE1EDE /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		F4EB8BB429BA448B00B63270 /* Glorified-ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glorified-ToDo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EB8BB729BA448B00B63270 /* Glorified_ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorified_ToDoApp.swift; sourceTree = "<group>"; };
 		F4EB8BB929BA448B00B63270 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4BAFDB429BB4EAF00EE1EDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4BAFDB529BB4ECB00EE1EDE /* CategoryCardView.swift */,
+				F4BAFDB729BB535600EE1EDE /* HomePageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F4EB8BAB29BA448B00B63270 = {
 			isa = PBXGroup;
 			children = (
@@ -59,11 +74,13 @@
 		F4EB8BB629BA448B00B63270 /* Glorified-ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				F4BAFDB429BB4EAF00EE1EDE /* Views */,
 				F4EB8BC529BA44C600B63270 /* model */,
 				F4EB8BB729BA448B00B63270 /* Glorified_ToDoApp.swift */,
 				F4EB8BB929BA448B00B63270 /* ContentView.swift */,
 				F4EB8BBB29BA448C00B63270 /* Assets.xcassets */,
 				F4EB8BBD29BA448C00B63270 /* Preview Content */,
+				F40116F829BB489500211565 /* ToDoDatabase.xcdatamodeld */,
 			);
 			path = "Glorified-ToDo";
 			sourceTree = "<group>";
@@ -159,9 +176,12 @@
 			files = (
 				F4EB8BD129BA485D00B63270 /* ReminderAt.swift in Sources */,
 				F4EB8BBA29BA448B00B63270 /* ContentView.swift in Sources */,
+				F40116FA29BB489500211565 /* ToDoDatabase.xcdatamodeld in Sources */,
 				F4EB8BCD29BA465B00B63270 /* ExpirationInfo.swift in Sources */,
+				F4BAFDB629BB4ECB00EE1EDE /* CategoryCardView.swift in Sources */,
 				F4EB8BCF29BA47FD00B63270 /* Task.swift in Sources */,
 				F4EB8BB829BA448B00B63270 /* Glorified_ToDoApp.swift in Sources */,
+				F4BAFDB829BB535600EE1EDE /* HomePageView.swift in Sources */,
 				F4EB8BCB29BA45B800B63270 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +381,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F40116F829BB489500211565 /* ToDoDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F40116F929BB489500211565 /* ToDoDatabase.xcdatamodel */,
+			);
+			currentVersion = F40116F929BB489500211565 /* ToDoDatabase.xcdatamodel */;
+			path = ToDoDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F4EB8BAC29BA448B00B63270 /* Project object */;
 }

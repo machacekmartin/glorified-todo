@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Task {
+struct Task: Identifiable {
     let id: UUID
     let name: String
     let additional_info: String
