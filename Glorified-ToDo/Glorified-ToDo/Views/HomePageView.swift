@@ -45,7 +45,7 @@ struct HomePageView: View {
                     .padding(.all)
                 }
             }
-            .navigationTitle(Text("Overview").font(.title))
+            .navigationTitle(Text("Overview"))
         }
     }
 }
