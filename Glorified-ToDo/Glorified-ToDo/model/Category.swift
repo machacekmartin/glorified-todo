@@ -18,6 +18,12 @@ struct Category: Identifiable {
         self.name = name
         self.color = color
     }
+    
+    public var tasks: [Task] {
+        get{
+            return Task.sampleData.filter(({ self.id == $0.category.id }))
+        }
+    }
 }
 
 extension Category {
@@ -25,6 +31,6 @@ extension Category {
     [
         Category(name: "Work", color: "blue"),
         Category(name: "Home", color: "green"),
-        Category(name: "miscallaneous", color: "red")
+        Category(name: "Miscellaneous and other stuff", color: "red")
     ]
 }
