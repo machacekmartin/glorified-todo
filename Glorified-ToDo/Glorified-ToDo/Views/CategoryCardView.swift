@@ -19,14 +19,19 @@ struct CategoryCardView: View {
                 .truncationMode(.tail)
                 .padding(.vertical)
             
-            Text("4 tasks")
+            Text(tasksCountOutput)
                 .foregroundColor(Color.black)
                 .padding(.bottom)
-                
         }
         .padding(.horizontal)
         .background(Color[category.color])
         .cornerRadius(15)
+    }
+    
+    var tasksCountOutput: String {
+        let unit = category.tasks.count > 1 ? " tasks" : " task"
+        
+        return "\(category.tasks.count)" + unit
     }
 }
 
