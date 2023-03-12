@@ -10,20 +10,23 @@ import SwiftUI
 struct CategoryCardView: View {
     let category: Category
     var body: some View {
-        VStack(alignment: .leading){
-            Text("4 unfinished tasks")
-                .foregroundColor(Color.gray)
-                .padding(.trailing)
+        VStack(alignment: .leading, spacing: 10) {
+            
+            Text(category.name)
+                .font(.system(size: 18, weight: .heavy, design: .default))
+                .foregroundColor(Color.white)
+                .frame(width: 180, height: 16, alignment: .leading)
+                .truncationMode(.tail)
+                .padding(.vertical)
+            
+            Text("4 tasks")
+                .foregroundColor(Color.black)
+                .padding(.bottom)
                 
-            Spacer()
-            HStack {
-                Text(category.name)
-                    .padding(.leading)
-            }
-            Spacer()
         }
-        //.cornerRadius(20)
-        
+        .padding(.horizontal)
+        .background(Color[category.color])
+        .cornerRadius(15)
     }
 }
 
