@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE80071729BE510100B35712 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80071629BE510100B35712 /* TaskView.swift */; };
+		DE80071929BE5E1F00B35712 /* CategoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80071829BE5E1F00B35712 /* CategoryPageView.swift */; };
 		F40116FA29BB489500211565 /* ToDoDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F40116F829BB489500211565 /* ToDoDatabase.xcdatamodeld */; };
 		F4BAFDB629BB4ECB00EE1EDE /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAFDB529BB4ECB00EE1EDE /* CategoryCardView.swift */; };
 		F4BAFDB829BB535600EE1EDE /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAFDB729BB535600EE1EDE /* HomePageView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE80071629BE510100B35712 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		DE80071829BE5E1F00B35712 /* CategoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPageView.swift; sourceTree = "<group>"; };
 		F40116F929BB489500211565 /* ToDoDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoDatabase.xcdatamodel; sourceTree = "<group>"; };
 		F4BAFDB529BB4ECB00EE1EDE /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
 		F4BAFDB729BB535600EE1EDE /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 			children = (
 				F4BAFDB529BB4ECB00EE1EDE /* CategoryCardView.swift */,
 				F4BAFDB729BB535600EE1EDE /* HomePageView.swift */,
+				DE80071629BE510100B35712 /* TaskView.swift */,
+				DE80071829BE5E1F00B35712 /* CategoryPageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,9 +183,11 @@
 				F4EB8BD129BA485D00B63270 /* ReminderAt.swift in Sources */,
 				F4EB8BBA29BA448B00B63270 /* ContentView.swift in Sources */,
 				F40116FA29BB489500211565 /* ToDoDatabase.xcdatamodeld in Sources */,
+				DE80071729BE510100B35712 /* TaskView.swift in Sources */,
 				F4EB8BCD29BA465B00B63270 /* ExpirationInfo.swift in Sources */,
 				F4BAFDB629BB4ECB00EE1EDE /* CategoryCardView.swift in Sources */,
 				F4EB8BCF29BA47FD00B63270 /* Task.swift in Sources */,
+				DE80071929BE5E1F00B35712 /* CategoryPageView.swift in Sources */,
 				F4EB8BB829BA448B00B63270 /* Glorified_ToDoApp.swift in Sources */,
 				F4BAFDB829BB535600EE1EDE /* HomePageView.swift in Sources */,
 				F4EB8BCB29BA45B800B63270 /* Category.swift in Sources */,
@@ -311,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Glorified-ToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = KG8SRBVS5V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -339,6 +348,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Glorified-ToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = KG8SRBVS5V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

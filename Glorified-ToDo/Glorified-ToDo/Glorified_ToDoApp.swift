@@ -11,7 +11,7 @@ import SwiftUI
 struct Glorified_ToDoApp: App {
     var body: some Scene {
         WindowGroup {
-            HomePageView(categories: Category.sampleData)
+            HomePageView(categories: Category.sampleData, tasks: Task.sampleData)
         } 
     }
 }
